@@ -76,10 +76,10 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -126,8 +126,8 @@ MonoBehaviour:
   speed: 10
   anim: {fileID: 7236971271040047745}
   saltoSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
-  limitIzq: -9
-  limitDer: 10
+  limitIzq: -16
+  limitDer: 34
 --- !u!82 &3455769870021198927
 AudioSource:
   m_ObjectHideFlags: 0

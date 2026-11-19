@@ -20,8 +20,8 @@ public class Personaje : MonoBehaviour
     public Animator anim;
     public AudioClip saltoSound;
 
-    public float limitIzq = -3.5f;
-    public float limitDer = 8.2f;
+    public float limitIzq = -16f;
+    public float limitDer = 34f;
    
 
     private void Awake()

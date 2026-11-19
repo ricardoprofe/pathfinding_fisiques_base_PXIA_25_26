@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4714952210917962538}
   - component: {fileID: 6215797882220001031}
   - component: {fileID: 7793827085005097832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Esqueleto
   m_TagString: enemigo
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 3433595734785307413, guid: 0ffaadf41f82974acbddfab9df30668f,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.16, y: 0.16}
@@ -110,7 +110,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
